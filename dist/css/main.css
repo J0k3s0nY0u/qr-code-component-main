@@ -9,6 +9,15 @@ body {
   color: hsl(220, 15%, 55%);
   height: 100vh;
   font-family: "Outfit", sans-serif;
+  align-content: center;
+}
+
+main {
+  background: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  align-items: center;
 }
 
 h3 {
@@ -22,11 +31,6 @@ p {
 }
 
 .main {
-  text-align: center;
-  align-self: center;
-  background: hsl(0, 0%, 100%);
-  position: relative;
-  align-items: center;
-  display: flexbox;
-  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

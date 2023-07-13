@@ -5,6 +5,14 @@ body {
     color: $Grayish-blue;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
+    align-content: center;
+}
+main {
+    background: $Light-gray;
+    color: $Grayish-blue;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
 }
 
 h3 {
@@ -18,11 +26,6 @@ p {
 }
 
 .main {
-    text-align: center;
-    align-self: center;
-    background: $White;
-    position: relative;
-    align-items: center;
-    display: flexbox;
-    border-radius: 0.5rem;
+height: 100%;
+width: 100%;
 }
