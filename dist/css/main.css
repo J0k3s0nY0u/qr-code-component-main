@@ -9,7 +9,7 @@ body {
   color: hsl(220, 15%, 55%);
   height: 100vh;
   font-family: "Outfit", sans-serif;
-  align-content: center;
+  justify-content: center;
 }
 
 h3 {
@@ -27,26 +27,35 @@ main {
   width: 100%;
 }
 
-.main {
+.container {
+  position: relative;
   background: hsl(0, 0%, 100%);
-  width: 50vw;
+  width: 2.8in;
+  height: 5in;
   margin: auto;
-  margin-top: 1.5rem;
   display: block;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   align-items: center;
   text-align: center;
+  justify-self: center;
+  justify-content: center;
 }
-.main .img {
-  display: block;
-  position: relative;
-  width: 30vw;
+.container .img {
   border-radius: 1.5rem;
   margin: 1rem auto 0 auto;
   margin-top: 1rem;
+  text-align: center;
 }
-.main .img img {
-  display: block;
-  width: 20rem;
-  height: 20rem;
+.container .img img {
+  border-radius: 0.5rem;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .img__container {
+  margin-top: 1rem;
+  border-radius: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
