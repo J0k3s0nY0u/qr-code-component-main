@@ -7,12 +7,12 @@
 body {
   background: hsl(212, 45%, 89%);
   color: hsl(220, 15%, 55%);
-  height: 100vh;
+  height: 90vh;
   font-family: "Outfit", sans-serif;
   justify-content: center;
 }
 
-h3 {
+h1, h2, h3 {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
@@ -31,8 +31,8 @@ main {
 .container {
   position: relative;
   background: hsl(0, 0%, 100%);
-  width: 2.8in;
-  height: 5in;
+  width: 2.87in;
+  height: 4.5in;
   margin: auto;
   display: block;
   border-radius: 1rem;
@@ -40,6 +40,7 @@ main {
   text-align: center;
   justify-self: center;
   justify-content: center;
+  transform: translate(0%, 20%);
 }
 .container .img {
   border-radius: 1.5rem;
@@ -49,14 +50,24 @@ main {
 }
 .container .img img {
   border-radius: 0.5rem;
-  width: 240px;
-  height: 240px;
+  width: 260px;
+  height: 250px;
   position: absolute;
-  top: 28%;
+  top: 31%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .container .img__container {
   margin-top: 1rem;
   border-radius: 1.5rem;
+}
+.container h3 {
+  transform: translate(0%, 470%);
+}
+.container p {
+  transform: translate(0%, 500%);
+}
+
+.attribution {
+  transform: translate(0%, 620%);
 }/*# sourceMappingURL=main.css.map */
