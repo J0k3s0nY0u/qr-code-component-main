@@ -10,12 +10,12 @@ $Dark-blue: hsl(218, 44%, 22%);
 }
 
 @mixin desktop {
-    @media screen and (min-width: 1440px) {
+    @media screen and (max-width: 1440px) {
         @content;
     }
 }
 @mixin mobile {
-    @media screen and (min-width: 375px) {
+    @media screen and (max-width: 375px) {
         @content;
     }
 }

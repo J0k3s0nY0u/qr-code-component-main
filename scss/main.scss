@@ -1,5 +1,4 @@
 @import 'config';
-@import 'responsive';
 
 body {
     background: $Light-gray;
@@ -22,6 +21,7 @@ p {
 main {
 height: 100%;
 width: 100%;
+justify-content: center;
 }
 
 .container {
