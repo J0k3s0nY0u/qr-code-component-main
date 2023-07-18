@@ -26,8 +26,8 @@ The above are the links to the screenshots of my project in Desktop View and Mob
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/J0k3s0nY0u/qr-code-component-main)
+- Live Site URL: [live site URL](https://j0k3s0ny0u.github.io/qr-code-component-main/)
 
 ### My Process
 
